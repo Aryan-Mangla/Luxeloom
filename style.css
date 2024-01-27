@@ -33,7 +33,7 @@ border: border-box;
 .border:hover{ /* border will appear */
     /* border: 1.5px solid white; */
     /* color: rgb(197, 192, 192); */
-    box-shadow: 0.2rem 0.2rem 0.2rem  #9CC5A1, -0.2rem -0.2rem 0.2rem #9CC5A1, -0.2rem 0.2rem 0.2rem #9CC5A1, 0.2rem -0.2rem 0.2rem #9CC5A1;
+    box-shadow: 0.1rem 0.1rem 0.1rem  #f5d60b, -0.1rem -0.1rem 0.1rem #f5d60b, -0.1rem 0.1rem 0.1rem #f5d60b, 0.1rem -0.1rem 0.1rem #f5d60b;
     
 
 }
@@ -73,7 +73,7 @@ border: border-box;
 }
 
 .nav-search:hover{
-    border: 3px solid #49A078;
+    border: 2.5px solid #49A078;
 }
 
 
@@ -228,7 +228,7 @@ background-color: #cbcbca;
     width: 90%;
     height: 70%;
     margin-top: 0.8rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 2rem;
 }
 /* content box 1*/
 .image1{
