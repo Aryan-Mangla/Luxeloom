@@ -293,7 +293,7 @@ box-sizing: border-box;
     align-items: center;
 }
 .active{
-    width: 3rem;
+    width: 4rem;
     height: 3rem;
 background-color: aqua;
 }
