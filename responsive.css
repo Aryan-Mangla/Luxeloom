@@ -142,7 +142,7 @@ margin: 0.1%;
     width: 100%;
     height: 70%;
     margin-top: 0.8rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 /* content box 1*/
 .image1{
@@ -150,8 +150,8 @@ margin: 0.1%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 62%;
-    width: 80%;
+    height: 75%;
+    width: 90%;
     
 
 }
@@ -162,8 +162,8 @@ margin: 0.1%;
     background-size: cover;
  background-repeat: no-repeat;
  background-position: center center;
- height: 62%;
- width: 80%;
+ height: 75%;
+    width: 90%;
 
 }
 /* content box 3*/
@@ -173,8 +173,8 @@ margin: 0.1%;
     background-size: cover;
     background-position: center center;
     background-position: center center;
-    height: 62%;
-    width: 80%;
+    height: 75%;
+    width: 90%;
 }
 
 /* content box 4*/
@@ -183,71 +183,171 @@ margin: 0.1%;
     background-image: url(toy\ 4.jpg);
     background-size: cover;
     background-position: center center;
-    height: 62%;
-    width: 80%;
-      
+    height: 75%;
+    width: 90%;
 }
 }
 
 /*Small Screen mobiles*/
 
-@media only screen and (width<=500){
-    /* nav bar */
+@media (max-width:400px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+/* nav bar */
+*{
+    box-sizing: border-box;
+}
+
 .nav{
-    height: 30rem;
+    height: 3.5rem;
     width: 100%;
-    background-color: #272D2D;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+
 }
 /* Box 3*/
 
 .nav-search{
-    display: flex;
-    justify-content: space-evenly;
-    width: 41.875rem;
+   
+    width: 31.875rem;
     height: 2.5rem;
-    background-color: aqua;
-    border-radius: 5px;
-    margin-left: 1rem;
-    /* margin-right: 1rem; */
-}
-
-.nav-search:hover{
-    border: 2.5px solid #49A078;
-}
-
-
-.search-select{
-    background-color: #dcdee4;
-    width: 3rem;
-    text-align: center;
-    border-bottom-left-radius: 0.2rem;
-    border-top-left-radius: 0.2rem;
-    border: none;
-    
-}
-
-.search-input{
-    border: none;
-    width: 90%;
-    font-size: 1rem;
-    background-color: #F6F8FF;
+margin-right: 1rem;
 }
 
 .search{
-    border: none;
-    width: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    background-color: #49A078;
-    border-bottom-right-radius: 0.2rem;
-    border-top-right-radius: 0.2rem;
-    color: #272D2D;
+
+    width: 20%;
+
 }
+.smsell{
+    display: none;
+}
+
+.hero-section{
+    height: 150.5px;
+}
+.hero-message{
+
+    font-size: 0.4rem;
+ 
+
+    }
+    .mobile_footer{
+        margin-top: 1.3rem;
+        height: 3rem;
+
+    }
+    
+    .m_home a{
+
+    font-size: 0.92rem;
+    }
+
+
+    .m_sign-in{
+        font-size: 1.1rem;
+     }
+    
+   
+    /*box 5*/
+    .m_orders{
+        font-size: 0.9rem;
+        margin: 3%;
+        
+    }
+
+    
+    /*box 6*/
+    
+    .m_cart{
+    font-size: 0.8rem;
+    margin: 0.2%;
+    /* width: 15%; */
+    
+    }
+
+    .shop-section{
+
+        margin-bottom: 3rem;
+        }
+    
+    /*boxes*/
+    .box{
+     
+        width: 43%;
+        height: 250px;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    
+    .inside-content{
+        padding: 0.7rem;
+        height: 100%;
+        width: 100%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    .inside-content p{
+        color:rgb(0, 145, 255) ;
+    }
+    .inside-content h2{
+        font-size: 1.5rem;
+    }
+    
+    .image{
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 70%;
+        margin-top: 0.8rem;
+        margin-bottom: 1.5rem;
+    }
+    /* content box 1*/
+    .image1{
+        background-image:url(toy\ 1.jpg) ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 62%;
+        width: 80%;
+        
+    
+    }
+    /* content box 2*/
+    
+    .image2{
+        background-image: url(toy\ 2.jpg);
+        background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     height: 62%;
+     width: 80%;
+    
+    }
+    /* content box 3*/
+    
+    .image3{
+        background-image: url(toy\ 3.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-position: center center;
+        height: 62%;
+        width: 80%;
+    }
+    
+    /* content box 4*/
+    
+    .image4{
+        background-image: url(toy\ 4.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 62%;
+        width: 80%;
+          
+    }
+    
+}
+
+
+
+@media only screen and (width<=500){
+    
 
 }
