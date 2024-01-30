@@ -289,7 +289,7 @@ box-sizing: border-box;
 }
 .m_home{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 .active{
