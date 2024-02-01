@@ -1,420 +1,54 @@
-@media only screen and (width<= 700px ) { 
-    .special_deals{
+@media only screen and (min-width: 990px) and (max-width: 1077px) {
+    .search-width{
+        width: 25rem;
+    }
+    
+  }
+
+  @media only screen and (min-width: 684px) and (max-width: 890px) {
+    .search-width{
+        width: 20rem;
+    }
+    
+  }
+
+  @media only screen and (min-width: 300px) and (max-width: 683px) {
+    .search-width{
+        width: 10rem;
+    }
+    
+  }
+  @media only screen and (min-width: 100px) and (max-width: 450px) {
+    .search-width{
+        width: 100%;
+    }
+    
+  }
+
+  @media only screen and (min-width: 100px) and (max-width: 512px) {
+    .menu1{
         display: none;
     }
-.big_device {
-    display: none;
-}
-
-.hero-section{
-    background-image: url(hero\ image.jpg);
-    height: 272.5px;
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: flex-end;
-justify-content: center;
-}
-
-.hero-message{
-    background-color: rgb(245, 243, 243);
-    width: 60%;
-    display: flex;
-    font-size: 0.85rem;
-    align-items: center;
-    justify-content: center;
-    height: 9%;
-    margin-bottom: 5%;
-    border-radius: 5px;
     
-    }
-    
-.mobile_footer{
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: black;
-    /* background-color: rgb(14, 15, 15)/; */
-box-sizing: border-box;
-}
+  }
 
-.m_home{
-    margin: 0;
-    padding: 0;
-}
-.mobile_footer a{
-text-decoration: none;
-/* align-self: center; */
-color: black;
-font-size: 1.2rem;
-box-sizing: border-box;
-
-}
-.house{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.active{
-    width: 3rem;
-    height: 3rem;
-  
-    /* align-items: center; */
-background-color: aqua;
-color: #efedf2;
-/* margin-left: 0; */
-}
-
-.m_sign-in{
-     font-size: 1.2rem;
-    /*width: 100px;
-    height: 60%;
-    text-align: center;*/
-    /* margin: 6%; */
-  /*  padding: 6px; */
-    border: 1.5px solid transparent;
-
-    /* border-bottom: 10rem; */
-    /* bottom: 1rem; */
-}
-
-.m_sign-in:hover{
-    box-shadow: 0.1rem 0.1rem 0.1rem  #f5d60b, -0.1rem -0.1rem 0.1rem #f5d60b, -0.1rem 0.1rem 0.1rem #f5d60b, 0.1rem -0.1rem 0.1rem #f5d60b;
-
-}
-
-.sign-in{
-    display: none;
-}
-
-.m_sign-in a{
-    color: black;
-    text-decoration: none;
-    align-self: center;
-    /* left: 5px; */
-
-
-}
-/*box 5*/
-.m_orders{
-    font-size: 1.2rem;
-    /* margin-left: 15px; */
-    /* width: 30%; */
-    height: auto;
-    /* margin: 5%; */
-    border: 1.5px solid transparent;
-    
-}
-
-.orders{
-    /* font-size: 20px; */
-    display: none;
-}
-.m_orders:hover{
-    box-shadow: 0.1rem 0.1rem 0.1rem  #f5d60b, -0.1rem -0.1rem 0.1rem #f5d60b, -0.1rem 0.1rem 0.1rem #f5d60b, 0.1rem -0.1rem 0.1rem #f5d60b;
-
-}
-
-/*box 6*/
-
-.m_cart{
-font-size: 1rem;
-/* margin: 0.1%; */
-/* width: 15%; */
-
-}
-.cart{
-    display: none;
-}
-
-.shop-section{
-    display: flex;
-    flex-wrap: wrap;
-    
-    justify-content: space-evenly;
-    background-color: #cbcbca;
-    margin-bottom: 2.5rem;
-    }
-
-/*boxes*/
-.box{
-    background-color: rgb(242, 241, 241);
-    /* border: 2px solid black; */
-    width: 40%;
-    height: 360px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-
-.inside-content{
-    padding: 1rem;
-    height: 100%;
-    width: 100%;
-    margin-left: 1rem;
-    margin-right: 1rem;
-}
-
-.inside-content p{
-    color:rgb(0, 145, 255) ;
-}
-
-.image{
-    /* border: 2px solid black; */
-    width: 100%;
-    height: 70%;
-    margin-top: 0.8rem;
-    margin-bottom: 1rem;
-}
-/* content box 1*/
-.image1{
-    background-image:url(toy\ 1.jpg) ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 75%;
-    width: 90%;
-    
-
-}
-/* content box 2*/
-
-.image2{
-    background-image: url(toy\ 2.jpg);
-    background-size: cover;
- background-repeat: no-repeat;
- background-position: center center;
- height: 75%;
-    width: 90%;
-
-}
-/* content box 3*/
-
-.image3{
-    background-image: url(toy\ 3.jpg);
-    background-size: cover;
-    background-position: center center;
-    background-position: center center;
-    height: 75%;
-    width: 90%;
-}
-
-/* content box 4*/
-
-.image4{
-    background-image: url(toy\ 4.jpg);
-    background-size: cover;
-    background-position: center center;
-    height: 75%;
-    width: 90%;
-      
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Small Screen mobiles*/
-
-@media (max-width:400px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-/* nav bar */
-*{
-    box-sizing: border-box;
-}
-
-.nav{
-    height: 3.5rem;
-    width: 100%;
-
-}
-/* Box 3*/
-
-.nav-search{
-   
-    width: 31.875rem;
-    height: 2.5rem;
-margin-right: 1rem;
-}
-
-.search{
-
-    width: 20%;
-
-}
-.smsell{
-    display: none;
-}
-
-.hero-section{
-    height: 150.5px;
-}
-.hero-message{
-
-    font-size: 0.4rem;
-     }
-
-    .mobile_footer{
-        height: 3rem;
-        padding: 0;
-
-        margin: 0;
+  @media only screen and (min-width: 100px) and (max-width: 512px) {
+    .mobile-nav{
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: black;
-    box-sizing: border-box;
-    }
-    
-
-.mobile_footer a{
-text-decoration: none;
-color: black;
-font-size: 1.2rem;
-box-sizing: border-box;
-
-}
-.m_home{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.active{
-    width: 4rem;
-    height: 3rem;
-background-color: aqua;
-}
-
-    .m_sign-in{
-        font-size: 1.1rem;
-    }
-    
-    /*box 5*/
-    .m_orders{
-        font-size: 0.9rem;
-        /* margin: 3%;  */
-    }
-.m_order2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.active2{
-    width: 9.5rem;
-    height: 3rem;
-background-color: aqua;
-}
-
-    
-    /*box 6*/
-    
-    .m_cart{
-    font-size: 0.8rem;
-    margin: 0.2%;
-    /* width: 15%; */
-    
-    }
-
-    .shop-section{
-
-        margin-bottom: 3rem;
-        }
-    
-    /*boxes*/
-    .box{
-     
-        width: 43%;
-        height: 250px;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-    
-    
-    .inside-content{
-        padding: 0.7rem;
-        height: 100%;
+        position: fixed;
+        bottom: 0;
+        background-color: #e9edf1;
         width: 100%;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
     
-    .inside-content p{
-        color:rgb(0, 145, 255) ;
-    }
-    .inside-content h2{
-        font-size: 1.5rem;
-    }
-    
-    .image{
-        /* border: 2px solid black; */
-        width: 100%;
-        height: 70%;
-        margin-top: 0.8rem;
-        margin-bottom: 1.5rem;
-    }
-    /* content box 1*/
-    .image1{
-        background-image:url(toy\ 1.jpg) ;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center center;
-        height: 62%;
-        width: 80%;
-        
-    
-    }
-    /* content box 2*/
-    
-    .image2{
-        background-image: url(toy\ 2.jpg);
-        background-size: cover;
-     background-repeat: no-repeat;
-     background-position: center center;
-     height: 62%;
-     width: 80%;
-    
-    }
-    /* content box 3*/
-    
-    .image3{
-        background-image: url(toy\ 3.jpg);
-        background-size: cover;
-        background-position: center center;
-        background-position: center center;
-        height: 62%;
-        width: 80%;
-    }
-    
-    /* content box 4*/
-    
-    .image4{
-        background-image: url(toy\ 4.jpg);
-        background-size: cover;
-        background-position: center center;
-        height: 62%;
-        width: 80%;
-          
-    }
-    
-}
+  }
+  @media only screen and (min-width: 389px) and (max-width: 512px) {
+    .mobile-nav{ font-size: 0.8rem;}
+  }
 
-
-
-@media only screen and (width<=500){
-    
-
-}
+  @media only screen and (min-width: 360px) and (max-width: 389px) {
+    .mobile-nav{ font-size: 0.7rem;}
+  }
+  @media only screen and (min-width: 301px) and (max-width: 359px) {
+    .mobile-nav{ font-size: 0.5rem;}
+  }
